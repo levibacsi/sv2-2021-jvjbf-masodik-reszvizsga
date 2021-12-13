@@ -15,7 +15,7 @@ public class Words {
 
         char[] charactersInWord = word.toCharArray();
         for (Character c: charactersInWord){
-            if (c >= 65 && c <= 90) {
+            if (c >= 97 && c <= 122) {
                 words.add(word);
             } else throw new IllegalArgumentException("Word should be lower case!");
         }
